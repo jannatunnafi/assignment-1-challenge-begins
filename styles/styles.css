@@ -140,11 +140,13 @@ font-weight: 400;
 
   .inspiration-container{
     width: 910px;
-    height: 710px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     gap: 42px;
     align-items: center;
+    margin-bottom: 5px;
+   
     
 
   }
@@ -186,3 +188,85 @@ justify-content: center;
 align-items: center;
 
   }
+
+  /* current target styles  */
+
+  .target-container{
+    width: 889px;
+    height: 500px;
+    margin: 20px 0 10px 25px;
+  }
+
+  .target-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .html-box{
+    border-radius: 10px;
+background: rgba(255, 76, 30, 0.05);
+margin: 0 9px;
+padding: 20px;
+
+  }
+
+  .css-box{
+    border-radius: 10px;
+background: rgba(0, 76, 232, 0.05);
+margin: 0 9px;
+padding: 20px;
+  }
+
+  .js-box{
+    border-radius: 10px;
+background: rgba(255, 223, 0, 0.05);
+margin: 0 9px;
+padding: 20px;
+  }
+
+  .target-content{
+    text-align: center;
+    width: 752px;
+    height: 113px;
+    margin: 10px 0;
+  }
+
+  .target-title{
+    color: rgb(13, 19, 33);
+font-size: 30px;
+font-weight: 800;
+
+  }
+
+  .target-description{
+    color: rgb(13, 19, 33);
+font-size: 13px;
+font-weight: 400;
+opacity: 0.7;
+  }
+
+  .box-title{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 700;
+  }
+
+  .box-description{
+    color: rgb(13, 19, 33);
+font-size: 13px;
+font-weight: 400;
+opacity: 0.7;
+
+  }
+
+  .anchor{
+    color: rgb(13, 19, 33);
+font-size: 13px;
+font-weight: 600;
+margin: 25px 0;
+
+  }
+
