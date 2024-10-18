@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 240px;
+    margin: 50px 240px;
    
 
   }
@@ -53,6 +53,7 @@ text-align: center;
 
   .hero-section{
     background-image: url("../assets/Hero-bg.png");
+    padding: 22px 0;
   }
 
   /* main styles */
@@ -284,7 +285,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-bottom: 30px;
+margin-bottom: 60px;
   }
 
   .support-content{
@@ -337,4 +338,27 @@ font-size: 15px;
 font-weight: 600;
 border: none;
   }
+
+  /* footer styles */
+  footer{
+    height: 80px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 200px 32px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 38px;
+    align-items: center;
+
+  }
+
+  .foot-text{
+    color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 500;
+  }
+
+ 
+
+ 
 
