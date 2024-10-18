@@ -194,7 +194,7 @@ align-items: center;
   .target-container{
     width: 889px;
     height: 500px;
-    margin: 20px 0 10px 25px;
+    margin: 20px 0 2px 25px;
   }
 
   .target-box{
@@ -268,5 +268,73 @@ font-size: 13px;
 font-weight: 600;
 margin: 25px 0;
 
+  }
+
+  /* need support styles */
+
+  .support-container{
+    background-image: url("../assets/handshake.jpg");
+    background-size: 100%;
+    width: 898px;
+    height: 250px;
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+padding: 5px 48px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+  }
+
+  .support-content{
+    
+    text-align: center;
+  }
+
+  .support-title{
+    color: rgb(255, 255, 255);
+font-size: 25px;
+font-weight: 700;
+
+  }
+
+  .support-description{
+    color: rgb(255, 255, 255);
+font-size: 13px;
+font-weight: 400;
+opacity: 0.7;
+margin-bottom: 25px;
+  }
+
+  .message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+
+  textarea{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 25px;
+text-align: left;
+height: 20px;
+width: 500px;
+
+  }
+
+  input[type="submit"]{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 17px 20px 17px 20px;
+width: 98px;
+height: 55px;
+color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 600;
+border: none;
   }
 
