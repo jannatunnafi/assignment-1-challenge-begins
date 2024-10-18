@@ -54,3 +54,9 @@ text-align: center;
   .hero-section{
     background-image: url("../assets/Hero-bg.png");
   }
+
+  /* main styles */
+
+  main{
+    margin: 0 155px;
+  }
